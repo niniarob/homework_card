@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Semi Condensed';
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color:#e0e8ff; 
+    display: grid;
+    place-items: center;
+    background-image: url(./assets/Path\ 2\ \(3\).png);
+}
+.card_box{
+    width: 450px;
+    height: 697px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.card_description{
+    width: 100%;
+    height: 477px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h2{
+   margin-top: 48px;
+   line-height: 100%;
+   font-weight: 900;
+   font-size: 28px;
+   color: #1F2E55;
+}
+p{
+    font-size: 16px;
+    font-weight:500;
+    line-height: 26px;
+    margin-top: 15px;
+    color: #717fa6;
+}
+.music_box{
+    width: 354px;
+    height: 98px;
+    background-color: #F7F9FF;
+    border-radius: 12px;
+    margin-left: 48px;
+    display: flex;
+    flex-direction: row;  
+    margin-top: 20px;
+}
+.music_img{
+    width: 48px;
+    height: 48px;
+    margin: 25px 0 0 24px;
+    
+
+}
+.annual{
+   margin:25px 0 0 23px;
+   font-weight: 900;
+   font-style: 16px;
+   line-height: 21px;
+   color: #1F2E55;
+}
+.price{
+    margin-top: 3px;
+}
+.change_link{
+    margin: 36px 39px 0 90px;
+    font-style: 14px;
+    line-height: 18px;
+    font-weight: 700;
+}
+button{
+    margin: 32px 0 0 48px;
+    width: 354px;
+    height: 50px;
+    background-color: #382AE1;
+    border-radius: 13px;
+    color: #fff;
+    border-style: none;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    
+}
+.cancel_order{
+    font-family: "Red Hat Display"; 
+    font-weight: 900;
+    font-style: 15px;
+    margin-top: 32px;
+    text-decoration: none;
+    color: #717fa6;
+}
